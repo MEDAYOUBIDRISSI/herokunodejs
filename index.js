@@ -5,6 +5,6 @@ cron.schedule("* * * * * *", function(){
     cmp++;
     console.log("Scheduler running ...", cmp);
     if(shell.exec("dir").code !== 0){
-        console.log("Something went wrong")
+        console.log("Someth ing went wrong")
     }
 })
